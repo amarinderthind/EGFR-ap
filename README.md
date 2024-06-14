@@ -18,7 +18,7 @@ These Sequences are then used to calculate frequencies of words at user-specifie
 
 ##### Input file requirements
 
-The DNA sequences to be analyzed can be uploaded in the form fasta file. All the sequences must be in FASTA format. Check the example file (Input_recom_SARS_cov2.fasta) for details.  
+The small molecules for which the user needs to predcit the EGFR activity should be uploaded to the app as a text file. This text file should coantin the smiles notation of the molecules. The text file can have many molecules but they should be in the SMILES format. Check the example file (Input_recom_SARS_cov2.fasta) for details.  
 
 ```
 setwd(".")

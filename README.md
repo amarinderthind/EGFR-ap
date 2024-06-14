@@ -1,4 +1,4 @@
-# EGFR-ap
+# EGFR-ap : FULL TITLE REQUIRED
 This is Danav' project 
 
  <p align="center">

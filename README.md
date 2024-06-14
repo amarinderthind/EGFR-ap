@@ -7,28 +7,13 @@
  
 </p>
 
-### How to start (Check section, Input file requirements)
-Tell me .....more 
-
 ##### Steps of the pipeline
 
-Input required is a set of two or more genome sequences in FASTA format. The other input required by the user is “word length (K value)” for which the frequencies of all the words in the sequences are calculated. Users can also specify the Out-group for the construction of the Neighbor-Joining Tree. 
+The required input is a text file containing the SMILES notation of the small molecules whose activity will be predicted against EGFR. The user can provide a text file as a batch containing more than one small molecule's SMILES notation.
 
-These Sequences are then used to calculate frequencies of words at user-specified word lengths. , each sequence gets its own frequency matrices. There is also an option to visualize the CGR plots. Based on these word frequencies the pair-wise distance (Euclidean-default, or  Square Euclidean, or Manhattan) is calculated between all pairs of sequences in input data. Package integrate other packages where distance matrices can be converted to NJ tree or other and visualized. We provide the option to convert distance matrix into MEGA and phylip distance formats, which is a widely used program for visualization. 
+These molecules are then subjected to the computation of the 2D descriptors using the PadelPy module. The user can visualize the molecular descriptors computed for the input molecules and download them in a .csv format. Next, the app filters the initially calculated molecular descriptors and keeps only the critical descriptors, which were found to be directing the inhibitory activity of EGFR inhibitors during model building. The app then provides these essential descriptors of a different table that the user can visualize and download in .csv format. Finally, this information is then utilized by the app to predict the pIC50 for the input molecules using an extra trees regressor algorithm. The user can visualize and download the activities of the input molecules. We provide the option to calculate a variety of 2D molecular descriptors for the input molecules supplied by the user, along with their predicted activities (pIC50) against EGFR. The user can visualize or download all the output files per their requirements.
+
 
 ##### Input file requirements
 
-The small molecules for which the user needs to predcit the EGFR activity should be uploaded to the app as a text file. This text file should coantin the smiles notation of the molecules. The text file can have many molecules but they should be in the SMILES format. Check the example file (Input_recom_SARS_cov2.fasta) for details.  
-
-```
-setwd(".")
-source('cgat_function.r')
-source('distances_n_other.r')
-source('cgrplot.r')
-
-file <- "Input_recom_SARS_cov2.fasta"
-
-library("seqinr")
-fastafile <- seqinr::read.fasta(file = file, seqtype = "DNA", as.string = TRUE, set.attributes = FALSE)
-```
-
+The small molecules for which the user needs to predcit the EGFR activity should be uploaded to the app as a text file. This text file should coantin the smiles notation of the molecules. The text file can have many molecules but they should be in the SMILES format. Check the example file (Input_file_example.txt) for details.

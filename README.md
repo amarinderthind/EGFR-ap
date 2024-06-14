@@ -7,6 +7,11 @@
  
 </p>
 
+#### How the App works
+
+For the app to work, users should download all the files in this repository and keep them in a single folder on their local machine. The user can then run the script 'EGFR_app.py'. To run this script, the user should type 'streamlit run EGFR_app.py' on the command prompt. This will open the app on the browser on the user's local machine. The user can then upload the input file in the format specified below and click the 'Predict' button.
+This will run the tool, and the user will get the desired output.
+
 ##### Steps of the pipeline
 
 The required input is a text file containing the `SMILES notation` of the small molecules whose activity will be predicted against EGFR. The user can provide a text file as a batch containing more than one small molecule's SMILES notation.

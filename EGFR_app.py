@@ -48,7 +48,7 @@ st.markdown("""
 with st.sidebar.header('1. Upload your data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file(The input file should contain SMILES notations for the small molecules)", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](Input_file_example.txt)
+[Example input file](https://github.com/amarinderthind/EGFR-ap/blob/main/Input_file_example.txt)
 """)
 
 if st.sidebar.button('Predict'):

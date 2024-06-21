@@ -16,7 +16,6 @@ To run this script, use following command
 
 ```
 streamlit run EGFR_app.py
-
  ```
 
 

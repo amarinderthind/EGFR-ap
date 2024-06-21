@@ -12,12 +12,13 @@
 For the app to work, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).
 
 The user can then run the script 'EGFR_app.py'.
-To run this script, the user should type 
+To run this script, use following command 
 
 ```
 streamlit run EGFR_app.py
 
- ``` on the command prompt. 
+ ```
+
 
 This will open the app on the browser on the user's local machine. The user can then upload the input file in the format specified below and click the 'Predict' button.
 This will run the tool, and the user will get the desired output.

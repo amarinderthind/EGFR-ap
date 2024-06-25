@@ -44,6 +44,18 @@ st.image(image, use_column_width=True)
 st.markdown("""
 # Bioactivity Prediction App """)
 
+# Page title
+st.markdown("""
+# EGFR Activity Prediction Tool
+
+This app allows you to predict the bioactivity towards inhibting the `Epidermal growth factor receptor (EGFR)` enzyme. `EGFR` is a drug target for multiple cancers.
+
+**Credits**
+- App built in `Python` + `Streamlit` by [Dr. Ashish Gupta and Dr. Amarinder Singh Thind]
+- Descriptor calculated using [PaDELpy module of Python]
+---
+""")
+
 # Sidebar
 with st.sidebar.header('1. Upload your data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file(The input file should contain SMILES notations for the small molecules)", type=['txt'])

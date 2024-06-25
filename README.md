@@ -36,7 +36,8 @@ The small molecules for which the user needs to predcit the EGFR activity should
 ### Download 
 
 ```
-git clone https://github.com/amarinderthind/EGFR-ap.git
 git clone <SSH> or <HTTPS>
+git clone git@github.com:amarinderthind/EGFR-ap.git
+git clone https://github.com/amarinderthind/EGFR-ap.git
 
 ```

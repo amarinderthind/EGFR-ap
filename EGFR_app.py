@@ -48,7 +48,7 @@ st.markdown("""
 st.markdown("""
 # EGFR Activity Prediction Tool
 
-This app allows you to predict the bioactivity towards inhibting the `Epidermal growth factor receptor (EGFR)` enzyme. `EGFR` is a drug target for multiple cancers.
+This app allows you to predict the pIC50 of novel small molecules against the `Epidermal growth factor receptor (EGFR)` enzyme. `EGFR` is a drug target for multiple cancers.
 
 **Credits**
 - App built in `Python` + `Streamlit` by [Dr. Ashish Gupta and Dr. Amarinder Singh Thind]

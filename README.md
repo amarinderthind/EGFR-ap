@@ -13,17 +13,16 @@ To start the this python app, users should download all the files in this reposi
 
 ### Download 
 You can download the repository using either SSH or HTTPS. Choose one of the following commands based on your preference.
+
 ```
 # git clone <SSH> or <HTTPS>
 git clone git@github.com:amarinderthind/EGFR-ap.git
 git clone https://github.com/amarinderthind/EGFR-ap.git
-
 ```
 After download Navigate to the Repository Directory
 
 ```
 cd EGFR-ap
-
 ```
 The user can then run the script 'EGFR_app.py'.
 To run this script, use following command 
@@ -32,10 +31,9 @@ To run this script, use following command
 streamlit run EGFR_app.py
  ```
  If streamlit is not installed, to install streamlit 
+ 
  ```
-
 pip install streamlit
-
  ```
 
 

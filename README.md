@@ -9,7 +9,7 @@
 
 #### How the App works
 
-For the app to work, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).
+To start the this python app, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).
 
 ### Download 
 You can download the repository using either SSH or HTTPS. Choose one of the following commands based on your preference.

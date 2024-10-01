@@ -17,8 +17,9 @@ To run this script, use following command
 ```
 streamlit run EGFR_app.py
  ```
+ To install streamlit 
  ```
-# To install streamlit 
+
 pip install streamlit
 
  ```

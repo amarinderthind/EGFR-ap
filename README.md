@@ -14,7 +14,7 @@ For the app to work, users should download all the files in this repository and 
 ### Download 
 You can download the repository using either SSH or HTTPS. Choose one of the following commands based on your preference.
 ```
-git clone <SSH> or <HTTPS>
+# git clone <SSH> or <HTTPS>
 git clone git@github.com:amarinderthind/EGFR-ap.git
 git clone https://github.com/amarinderthind/EGFR-ap.git
 

@@ -31,7 +31,7 @@ To run this script, use following command
 ```
 streamlit run EGFR_app.py
  ```
- To install streamlit 
+ If streamlit is not installed, to install streamlit 
  ```
 
 pip install streamlit

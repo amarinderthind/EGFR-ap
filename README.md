@@ -11,6 +11,20 @@
 
 For the app to work, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).
 
+### Download 
+You can download the repository using either SSH or HTTPS. Choose one of the following commands based on your preference.
+```
+git clone <SSH> or <HTTPS>
+git clone git@github.com:amarinderthind/EGFR-ap.git
+git clone https://github.com/amarinderthind/EGFR-ap.git
+
+```
+After download Navigate to the Repository Directory
+
+```
+cd EGFR-ap
+
+```
 The user can then run the script 'EGFR_app.py'.
 To run this script, use following command 
 
@@ -39,11 +53,3 @@ These molecules are then subjected to the computation of the 2D descriptors usin
 
 The small molecules for which the user needs to predcit the EGFR activity should be uploaded to the app as a text file. This text file should coantin the smiles notation of the molecules. The text file can have many molecules but they should be in the `SMILES` format. Check the example file (`Input_file_example.txt`) for details.
 
-### Download 
-
-```
-git clone <SSH> or <HTTPS>
-git clone git@github.com:amarinderthind/EGFR-ap.git
-git clone https://github.com/amarinderthind/EGFR-ap.git
-
-```

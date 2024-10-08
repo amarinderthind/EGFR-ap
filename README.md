@@ -19,6 +19,16 @@ You can download the repository using either SSH or HTTPS. Choose one of the fol
 git clone git@github.com:amarinderthind/EGFR-ap.git
 git clone https://github.com/amarinderthind/EGFR-ap.git
 ```
+
+Check the Model File; If the model file is not downloaded properly, you may need to download it separately.
+
+Download the model file if necessary:
+
+You can use the following command to download it. Make sure to keep it in the same folder until you change the configuration.
+
+```
+wget -O ML_model_EGFR.pkl https://github.com/amarinderthind/EGFR-ap/raw/refs/heads/main/ML_model_EGFR.pkl?download=
+```
 After download Navigate to the Repository Directory
 
 ```

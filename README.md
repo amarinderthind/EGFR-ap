@@ -35,7 +35,8 @@ After download Navigate to the Repository Directory
 cd EGFR-ap
 ```
 The user can then run the script 'EGFR_app.py'.
-To run this script, use following command 
+
+## To run this script, use following command 
 
 ```
 streamlit run EGFR_app.py

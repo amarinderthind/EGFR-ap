@@ -24,7 +24,7 @@ Check the Model File; If the model file is not downloaded properly, you may need
 
 Download the model file if necessary:
 
-You can use the following command to download it. Make sure to keep it in the same folder until you change the configuration.
+You can use the following command to download it. Make sure to keep it in the same folder unless you change the configuration.
 
 ```
 wget -O ML_model_EGFR.pkl https://github.com/amarinderthind/EGFR-ap/raw/refs/heads/main/ML_model_EGFR.pkl?download=

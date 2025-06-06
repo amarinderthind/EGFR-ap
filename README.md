@@ -1,4 +1,4 @@
-# EGFR-AP : Epidermal Growth Factor Receptor-Activity Predictor.
+# EGFR-AP : Epidermal Growth Factor Receptor-Activity Predictor
 
 
  <p align="center">

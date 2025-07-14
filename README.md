@@ -7,7 +7,7 @@
  
 </p>
 
-#### How the App works
+#### How the App works.
 
 To start the this python app, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).
 

@@ -7,6 +7,9 @@
  
 </p>
 
+### Publication link: 
+Gupta, Ashish, Amarinder Thind, and Rituraj Purohit. "**EGFRAP**: A Predictive Machine Learning Model for Assessing Small Molecule Activity Against the Epidermal Growth Factor Receptor." _RSC Medicinal Chemistry_ (2025). https://doi.org/10.1039/D5MD00361J
+
 #### How the App works.
 
 To start the this python app, users should download all the files in this repository and keep them in a single folder on their local machine (Check below, how to download).

@@ -65,3 +65,6 @@ These molecules are then subjected to the computation of the 2D descriptors usin
 
 The small molecules for which the user needs to predcit the EGFR activity should be uploaded to the app as a text file. This text file should coantin the smiles notation of the molecules. The text file can have many molecules but they should be in the `SMILES` format. Check the example file (`Input_file_example.txt`) for details.
 
+##### Contact
+Please feel free to reach us for any question or help at thind.amarinder@gmail.com
+
